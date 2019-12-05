@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio for Marci Kitzmiller</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .container {
+          border: 2px solid #ccc;
+          background-color: #eee;
+          border-radius: 5px;
+          padding: 16px;
+          margin: 16px 0
+        }
+        
+        .container::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .container img {
+          float: left;
+          margin-right: 20px;
+          border-radius: 50%;
+        }
+        
+        .container span {
+          font-size: 20px;
+          margin-right: 15px;
+        }
+        
+        @media (max-width: 500px) {
+          .container {
+              text-align: center;
+          }
+          .container img {
+              margin: auto;
+              float: none;
+              display: block;
+          }
+        }
+        </style>
+</head>
+<body>
+<header>
+    <h1> 
+        <center> Portfolio for Marci Kitzmiller </center> 
+    </h1>
+</header>
+
+<hr>
+
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="index.html" class="w3-bar-item w3-button"><strong>Projects</strong></a>|
+          <!-- Float links to the right. Hide them on small screens -->
+          
+            <a style="padding: 100px;" href="contact.html" class="w3-bar-item w3-button">Contact Me</a>|
+            <a href="testimonial.html" class="w3-bar-item w3-button">Testimonials</a>|
+    </div>
+</div>
+    <hr>
+    <div class="container">
+        <img src="img/bandmember.png" alt="Avatar" style="width:90px">
+        <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+        <p>John Doe saved us from a web disaster.</p>
+      </div>
+      
+      <div class="container">
+        <img src="img/avatar_g2.png" alt="Avatar" style="width:90px">
+        <p><span >Rebecca Flex.</span> CEO at Company.</p>
+        <p>No one is better than John Doe.</p>
+      </div>
+
+      <div class="container">
+        <img src="img/bandmember.png" alt="Avatar" style="width:90px">
+        <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+        <p>John Doe saved us from a web disaster.</p>
+      </div>
+      
+      <div class="container">
+        <img src="img/avatar_g2.png" alt="Avatar" style="width:90px">
+        <p><span >Rebecca Flex.</span> CEO at Company.</p>
+        <p>No one is better than John Doe.</p>
+      </div>
+
+    <footer>
+        <div style="text-align: center">
+            <p>Copyright &copy; <span id="year"></span> Marci Fitzmiller. All Rights reserved </p>
+        </div>
+    </footer>
+	
+	
+</body>
+</html>
