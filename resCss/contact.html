@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            margin: 20px;
+            background-color: #fcfafa;
+        }
+        .link a {
+            margin: 5px;
+            text-decoration: none;
+            color: #444;
+            opacity: 0.6;
+            transition: all 0.3s ease-in;
+        }
+    
+        .link a:hover {
+            margin: 5px;
+            text-decoration: none;
+            opacity: 1;           
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+        h1 {
+            margin-top: 50px;
+            font-family: 'Titillium Web', serif;
+            font-size: 2.4em;
+            letter-spacing: 1px;
+        }
+        img {
+            width: 300px;
+            
+            margin: 4px 1.5em 0.9em 0px;
+            box-shadow: 1px 1px 3px 1px rgb(70, 69, 69);
+        }
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        footer {
+            margin-top: 4em;
+            border-top: 1px solid silver;
+            padding-top: 1em;
+            width: 40%;
+            margin: 4em auto 2em;
+        }
+        footer p {
+            color: #666;
+            text-align: center;            
+            font-size: 1em;
+            margin: 3px;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="jumbotron jumbotron-fluid" style="text-align: center; color:orangered;">
+        <div class="container">
+          <h1 class="display-4">ALI BABA</h1>
+          <p class="lead">Where all the Hungry People Gather Together</p>
+        </div>
+      </div>
+</header>
+
+<hr>
+
+<div class="w3-top">
+    <div class="link" ;style=" .links a:hover {
+        margin: 5px;
+        text-decoration: none;
+        opacity: 1;           
+    }">
+            <a href="home.html" class="w3-bar-item w3-button"><strong>Home</strong></a>|
+          <!-- Float links to the right. Hide them on small screens -->
+          
+            <a href="menu.html" class="w3-bar-item w3-button">Menu</a>|
+            <a href="contact.html" class="w3-bar-item w3-button">Contact Us</a>
+        
+    </div>
+    <hr>
+
+    <!-- <div class="container">
+    <form style="text-align: center">
+            Name:
+            <input type="text" name="name"><br>
+            Email
+            <input type="email" name="email"><br>
+            phone:
+            <input type="text" name="phone"><br>
+            Reason for Inquiry:
+            <select>
+                    <option value="catering">Catering</option>
+                    <option value="Private party">Private Party</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="other">other</option>
+            </select> 
+            <br>
+            Additional information:
+            <input style="height: 50px" type="text" name="additional information"><br>
+            Have you been here:
+            <input type="radio" name="Yes" value="Yes"> Yes
+            <input type="radio" name="no" value="no"> no <br>
+
+            Best days to Contact you:
+             <input type="checkbox" name="checkbox" value="day"> M
+             <input type="checkbox" name="checkbox" value="day"> T
+             <input type="checkbox" name="checkbox" value="day"> W
+             <input type="checkbox" name="checkbox" value="day"> Th
+             <input type="checkbox" name="checkbox" value="day"> F 
+
+             <br>
+
+             <input style="color: blue" type="submit" value="Submit">
+    </form>
+
+    </div> -->
+
+
+
+    <form">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="name">Name</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+          <br>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Phone</label>
+            <input type="texr" class="form-control" id="inputPassword4" placeholder="Phone">
+          </div>
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="inputAddress">Reason for Inquiry</label>
+          <select>
+            <option value="catering">Catering</option>
+            <option value="Private party">Private Party</option>
+            <option value="Feedback">Feedback</option>
+            <option value="other">other</option>
+    </select> 
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="additional Information">Additional Information</label>
+          <input style="height: 80px; width: 280px;" type="text" name="additional information"  placeholder="additional information" >      </div>
+
+          <div class="form-group col-md-2">
+            <label for="have you been here">Have you been here?</label>
+            <input type="radio" name="Yes" value="Yes"> Yes
+            <input type="radio" name="no" value="no"> no <br>
+          </div>
+        </div>
+        <br>
+        <div class="form-group">
+                <div class="form-group col-md-2">
+            <label for="have you been here">Best days to contact you</label>
+            <input type="checkbox" name="checkbox" value="day"> M
+             <input type="checkbox" name="checkbox" value="day"> T
+             <input type="checkbox" name="checkbox" value="day"> W
+             <input type="checkbox" name="checkbox" value="day"> Th
+             <input type="checkbox" name="checkbox" value="day"> F 
+
+             <br>
+     </div>
+     <br>
+          
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+            
+    
+    <hr>
+<section>
+    <footer >
+        <div style="text-align: center">
+            <p> Address: 13950 87th avenue, Jamiaca, New York, 11435</p>
+            <p>phone:3473935547</p>
+        </div>
+    </footer>
+
+</section>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+	
+</body>
+</html>
