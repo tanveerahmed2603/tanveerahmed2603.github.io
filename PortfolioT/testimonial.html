@@ -11,6 +11,19 @@
           padding: 16px;
           margin: 16px 0
         }
+        .links a {
+            margin: 5px;
+            text-decoration: none;
+            color: #444;
+            opacity: 0.6;
+            transition: all 0.3s ease-in;
+        }
+    
+        .links a:hover {
+            margin: 5px;
+            text-decoration: none;
+            opacity: 1;           
+        }
         
         .container::after {
           content: "";
@@ -43,14 +56,17 @@
 </head>
 <body>
 <header>
-    <h1> 
-        <center> Portfolio for Marci Kitzmiller </center> 
-    </h1>
+    <div class="jumbotron jumbotron-fluid" style="text-align: center; color:orangered;">
+        <div class="container">
+          <h1 class="display-4">Portfolio for Tanveer Ahmed</h1>
+          
+        </div>
+      </div>
 </header>
 
 <hr>
 
-<div class="w3-top">
+<div class="links">
     <div class="w3-bar w3-white w3-wide w3-padding w3-card">
             <a href="index.html" class="w3-bar-item w3-button"><strong>Projects</strong></a>|
           <!-- Float links to the right. Hide them on small screens -->
@@ -86,7 +102,7 @@
 
     <footer>
         <div style="text-align: center">
-            <p>Copyright &copy; <span id="year"></span> Marci Fitzmiller. All Rights reserved </p>
+            <p>Copyright &copy; <span id="year"></span> Tanveer Ahmed. All Rights reserved </p>
         </div>
     </footer>
 	
